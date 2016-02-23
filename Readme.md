@@ -23,19 +23,22 @@ Each logging statement includes the following information:
 * User logout
 * Plugin activation
 * Plugin deactivation
+* Theme changes
+* User creation
+* User deletion
+* Adding a user to a blog
+* Removing a user from a blog
+* Role assignment
+* Blog creation
+* Blog deletion
+* Blog details changes
+* Blog status changes
+* File uploads
 
 ##### Coming Soon:
 
-* Theme changes
 * Post creation
-* File uploads
-* User creation
-* User deletion
 * User modification
-* Role assignment
-* Blog creation
-* Blog status changes
-* Blog deletion
 
 ### Extra Features 
 
