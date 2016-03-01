@@ -97,7 +97,7 @@ function audsys_deactivate_plugin($plugin, $across_network)
     else log_action(LOG_NOTICE, "Plugin disabled: $plugin");
 }
 
-add_action('activate_plugin', 'audsys_switch_theme', 1, 2);
+add_action('switch_theme', 'audsys_switch_theme', 1, 2);
 function audsys_switch_theme($theme_name, $theme)
 {
     log_action(LOG_NOTICE, "Theme switched: $theme_name");
